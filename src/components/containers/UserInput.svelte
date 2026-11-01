@@ -311,7 +311,7 @@
   });
 
   $: hasShrineBuffs = (visibleShrineBuffs || []).some(
-    (sb) => sb.id !== "none" && !isTrueLuckActive,
+    (sb) => sb.id !== "none",
   );
 
   $: shrineBuffSelectionKey = selectedEgg?.id ?? "unknown-egg";
@@ -385,7 +385,7 @@
         const sources = [
           selectedRift,
           ...(selectedBoardEvents || []),
-          ...(selectedShrineBuffId !== "none" && !isTrueLuckActive
+          ...(selectedShrineBuffId !== "none"
             ? (visibleShrineBuffs || []).filter(
                 (sb) => sb.id === selectedShrineBuffId,
               )
@@ -2065,10 +2065,10 @@
             label: "Bounty",
             description: "Bounty pets are never in true luck eggs",
           },
-          {
-            label: "Shrine Buff",
-            description: "Shrine buff does not affect the true luck eggs",
-          },
+          // {
+          //   label: "Shrine Buff",
+          //   description: "Shrine buff does not affect the true luck eggs",
+          // },
         ]}
         onDismiss={dismissTrueLuckWarning}
       />
