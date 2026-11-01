@@ -1655,7 +1655,7 @@
         "rarity": "secret",
         "void": true,
         "baseChance": 4e-13
-      },
+      }
     ]
   }
 ]
