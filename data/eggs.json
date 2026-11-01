@@ -1302,6 +1302,12 @@
         "baseChance": 2e-8
       },
       {
+        "id": "the-king-of-the-dark-crop",
+        "name": "The King of The Dark Crop",
+        "rarity": "infinity",
+        "baseChance": 2e-10
+      },
+      {
         "id": "void-sinister-lord",
         "name": "VOID SINISTER LORD",
         "rarity": "secret",
@@ -1352,6 +1358,18 @@
         "rarity": "secret",
         "celestial": true,
         "baseChance": 4e-11
+      },
+      {
+        "id": "mango-bird",
+        "name": "Mango Bird",
+        "rarity": "infinity",
+        "baseChance": 2.5e-12
+      },
+      {
+        "id": "the-king-of-the-dark-crop",
+        "name": "The King of The Dark Crop",
+        "rarity": "infinity",
+        "baseChance": 2e-11
       },
       {
         "id": "void-sinister-lord",
@@ -1413,6 +1431,12 @@
         "baseChance": 4e-11
       },
       {
+        "id": "the-king-of-the-dark-crop",
+        "name": "The King of The Dark Crop",
+        "rarity": "infinity",
+        "baseChance": 2e-11
+      },
+      {
         "id": "sinister-lord-20",
         "name": "Sinister Lord 2.0",
         "rarity": "infinity",
@@ -1432,7 +1456,6 @@
     "name": "Luminant Egg",
     "type": "special",
     "event": "halloween",
-    "hatchLuck": true,
     "pets": [
       {
         "id": "luminant-doggy",
@@ -1485,6 +1508,12 @@
         "baseChance": 2e-11
       },
       {
+        "id": "the-king-of-the-dark-crop",
+        "name": "The King of The Dark Crop",
+        "rarity": "infinity",
+        "baseChance": 2e-11
+      },
+      {
         "id": "vampire-skull",
         "name": "Vampire Skull",
         "rarity": "secret",
@@ -1527,54 +1556,106 @@
     ]
   },
   {
-    "id": "admin-shadow-egg",
-    "name": "Admin Shadow Egg",
-    "riftable": true,
+    "id": "super-halloween-egg",
+    "name": "Super Halloween Egg",
     "type": "special",
+    "event": "halloween",
+    "hatchLuck": true,
+    "trueLuck": true,
     "pets": [
       {
-        "id": "shadow-doggy",
-        "name": "Shadow Doggy",
+        "id": "witch-doggy",
+        "name": "Witch Doggy",
         "rarity": "common",
         "baseChance": 0.65
       },
       {
-        "id": "shadow-kitty",
-        "name": "Shadow Kitty",
+        "id": "demon-spitty",
+        "name": "Demon Spitty",
         "rarity": "rare",
         "baseChance": 0.3
       },
       {
-        "id": "shadow-serpent",
-        "name": "Shadow Serpent",
-        "rarity": "legendary",
-        "baseChance": 2e-6
+        "id": "demon-spirit",
+        "name": "Demon Spirit",
+        "rarity": "epic",
+        "baseChance": 0.04
       },
       {
-        "id": "shadow-hydra",
-        "name": "Shadow Hydra",
+        "id": "killer",
+        "name": "Killer",
         "rarity": "legendary",
-        "baseChance": 0.0000012
+        "baseChance": 1e-5
       },
       {
-        "id": "the-darkenedlord",
-        "name": "The Darkenedlord",
+        "id": "cauldron-spirit",
+        "name": "Cauldron Spirit",
+        "rarity": "legendary",
+        "baseChance": 1.5e-7
+      },
+      {
+        "id": "spirit-lantern",
+        "name": "Spirit Lantern",
         "rarity": "secret",
-        "baseChance": 4e-9
+        "baseChance": 4e-10
       },
       {
-        "id": "darkened-skull",
-        "name": "Darkened Skull",
+        "id": "bloodmoon",
+        "name": "Bloodmoon",
+        "rarity": "secret",
+        "baseChance": 2e-10
+      },
+      {
+        "id": "will-o-the-wisp",
+        "name": "Will-o'-the-Wisp",
+        "rarity": "secret",
+        "baseChance": 5e-11
+      },
+      {
+        "id": "dawnfire",
+        "name": "Dawnfire",
         "rarity": "secret",
         "celestial": true,
-        "baseChance": 2.5e-11
+        "baseChance": 4e-11
       },
       {
-        "id": "darkened-shard",
-        "name": "Darkened Shard",
+        "id": "giant-demon-spitty",
+        "name": "Giant Demon Spitty",
+        "rarity": "secret",
+        "celestial": true,
+        "baseChance": 2e-11
+      },
+      {
+        "id": "the-king-of-the-dark-crop",
+        "name": "The King of The Dark Crop",
         "rarity": "infinity",
-        "baseChance": 2e-12
-      }
+        "baseChance": 2e-11
+      },
+      {
+        "id": "moonlit-shard",
+        "name": "Moonlit Shard",
+        "rarity": "infinity",
+        "baseChance": 1e-13
+      },
+      {
+        "id": "nyx",
+        "name": "Nyx",
+        "rarity": "infinity",
+        "baseChance": 5e-13
+      },
+      {
+        "id": "cursed-craving",
+        "name": "Cursed Carving",
+        "rarity": "infinity",
+        "baseChance": 2.5e-13
+      },
+      {
+        "id": "void-sinister-lord",
+        "name": "VOID SINISTER LORD",
+        "rarity": "secret",
+        "void": true,
+        "baseChance": 4e-13
+      },
     ]
   }
 ]
