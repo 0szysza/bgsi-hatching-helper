@@ -1626,12 +1626,6 @@
         "baseChance": 2e-11
       },
       {
-        "id": "the-king-of-the-dark-crop",
-        "name": "The King of The Dark Crop",
-        "rarity": "infinity",
-        "baseChance": 2e-11
-      },
-      {
         "id": "moonlit-shard",
         "name": "Moonlit Shard",
         "rarity": "infinity",
