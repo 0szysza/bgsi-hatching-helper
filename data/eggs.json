@@ -1642,13 +1642,6 @@
         "name": "Cursed Carving",
         "rarity": "infinity",
         "baseChance": 2.5e-13
-      },
-      {
-        "id": "void-sinister-lord",
-        "name": "VOID SINISTER LORD",
-        "rarity": "secret",
-        "void": true,
-        "baseChance": 4e-13
       }
     ]
   }
