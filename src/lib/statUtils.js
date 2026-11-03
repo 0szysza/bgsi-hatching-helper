@@ -15,13 +15,13 @@ import {
 } from "./mathDecimal.js";
 
 const DEFAULT_XL_CHANCE_BY_RARITY = Object.freeze({
-  infinity: 0.4 / 100,
-  secret: 0.4 / 100,
-  legendary: 0.05 / 100,
-  epic: 0.004 / 100,
-  rare: 0.0013333333333333333 / 100,
-  unique: 0.00028571428571428574 / 100,
-  common: 0.0002 / 100,
+  infinity: (0.4 / 100) * 1.5,
+  secret: (0.4 / 100) * 1.5,
+  legendary: (0.05 / 100) * 1.5,
+  epic: (0.004 / 100) * 1.5,
+  rare: (0.0013333333333333333 / 100) * 1.5,
+  unique: (0.00028571428571428574 / 100) * 1.5,
+  common: (0.0002 / 100) * 1.5,
 });
 
 export function calculateStats(sources, toggles, numbers, egg) {
