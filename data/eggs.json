@@ -1302,12 +1302,6 @@
         "baseChance": 2e-8
       },
       {
-        "id": "the-king-of-the-dark-crop",
-        "name": "The King of The Dark Crop",
-        "rarity": "infinity",
-        "baseChance": 2e-10
-      },
-      {
         "id": "void-sinister-lord",
         "name": "VOID SINISTER LORD",
         "rarity": "secret",
@@ -1364,12 +1358,6 @@
         "name": "Mango Bird",
         "rarity": "infinity",
         "baseChance": 2.5e-12
-      },
-      {
-        "id": "the-king-of-the-dark-crop",
-        "name": "The King of The Dark Crop",
-        "rarity": "infinity",
-        "baseChance": 2e-11
       },
       {
         "id": "void-sinister-lord",
@@ -1429,12 +1417,6 @@
         "rarity": "secret",
         "celestial": true,
         "baseChance": 4e-11
-      },
-      {
-        "id": "the-king-of-the-dark-crop",
-        "name": "The King of The Dark Crop",
-        "rarity": "infinity",
-        "baseChance": 2e-11
       },
       {
         "id": "sinister-lord-20",
@@ -1505,12 +1487,6 @@
         "name": "Pentagram Shard",
         "rarity": "secret",
         "celestial": true,
-        "baseChance": 2e-11
-      },
-      {
-        "id": "the-king-of-the-dark-crop",
-        "name": "The King of The Dark Crop",
-        "rarity": "infinity",
         "baseChance": 2e-11
       },
       {
