@@ -71,7 +71,7 @@ export function calculateStats(sources, toggles, numbers, egg) {
     baseVoidLuck: 0,
     baseShinyChance: 0.025,
     baseMythicChance: 0.01,
-    baseSuperLegendaryChance: 1 / 1000,
+    baseSuperLegendaryChance: 1 / 2000,
     baseHatchSpeed: 0,
     _applyAdjustedShiny: hasGoldenEggMastery(sources),
   };
@@ -244,7 +244,7 @@ export function calculateDebugStats(sources, toggles, numbers, egg) {
     baseVoidLuck: 0,
     baseShinyChance: 0.025,
     baseMythicChance: 0.01,
-    baseSuperLegendaryChance: 1 / 1000,
+    baseSuperLegendaryChance: 1 / 2000,
     baseHatchSpeed: 0,
     _applyAdjustedShiny: false,
   };
